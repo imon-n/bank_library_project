@@ -89,7 +89,7 @@ WSGI_APPLICATION = "bank_1.wsgi.application"
 #     }
 # }
 
-
+import dj_database_url
 # Replace the SQLite DATABASES configuration with PostgreSQL:
 DATABASES = {
     'default': dj_database_url.config(
