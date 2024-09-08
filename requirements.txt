@@ -101,3 +101,4 @@ uritemplate
 urllib3
 watchdog
 yarl
+dj_database_url
